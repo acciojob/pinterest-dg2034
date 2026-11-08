@@ -1,1 +1,47 @@
 /*  your css code here. If applicable */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: 20px;
+    background-color: white;
+}
+
+.hero img {
+    width: 360px;
+    height: 173px;
+    object-fit: cover;
+}
+
+.hero-content {
+    width: 140px;
+    padding: 15px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.hero-content p {
+    font-size: 10px;
+    margin-bottom: 12px;
+}
+
+.explore-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 10px;
+}
